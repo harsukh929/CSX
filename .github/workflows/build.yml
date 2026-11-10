@@ -45,7 +45,7 @@ jobs:
           java-version: 17
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v4.0.1
+        uses: android-actions/setup-android@v3
 
       - name: Access Secrets & Create Properties
         env:
